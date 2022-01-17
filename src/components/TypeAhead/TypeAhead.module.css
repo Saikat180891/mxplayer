@@ -1,0 +1,34 @@
+.TypeAheadWrapper {
+  width: 100%;
+  /* padding: 0 2rem; */
+}
+
+.TypeAheadInputs {
+  position: relative;
+}
+
+.TypeAheadInputs input[type="text"] {
+  width: 100%;
+  height: 4rem;
+  border: none;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.TypeAheadInputs input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
+
+.PlaceholderInput {
+  pointer-events: none;
+}
+
+.MainInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: rgb(9, 127, 230);
+}

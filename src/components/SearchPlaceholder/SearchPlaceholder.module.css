@@ -1,0 +1,38 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.category {
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #ed4265;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.typeAheadPlaceholder {
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  transform: translate3d(0, 0, 0);
+}
+
+.hide {
+  transform: translate3d(0, -1000%, 0);
+}
